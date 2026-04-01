@@ -20,7 +20,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../img/home/albumGrhite.jpg);
+    background: url("../img/home/AlbumGrhite.jpg");
     background-color: var(--white);
     color: var(--dark);
     font-family: var(--body);
