@@ -25,6 +25,13 @@
     font-variation-settings: "THCK" 400, "grow" 1000;
   }
 }
+#logobunny {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+    mix-blend-mode: multiply;
+}
 h1 {
     font-family: var(--display);
     font-size: 18vw;
