@@ -25,6 +25,10 @@
     font-variation-settings: "THCK" 400, "grow" 1000;
   }
 }
+
+.joinus.mobile {display: none;}
+.joinus.desktop {display: block;}
+
 #logobunny {
     display: block;
     max-width: 800px;
@@ -39,6 +43,72 @@ h1 {
     animation: grow 85s linear 0s alternate;
     animation-iteration-count: infinite; 
 }
+
+.main {
+    margin: 0 auto;
+    max-width: 460px; 
+    font-family: var(--display);
+    padding: 0 14px;
+}
+.socials {
+    margin-top: 14px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.socials div {
+    flex-grow: 1;
+    text-align: center;
+}
+.socials div a {
+    display: block;
+    align-items: center;
+    height: 78px;
+}
+.luma a img {
+    padding: 11px 0;
+}
+
+.beliefs {
+    display: flex;
+    width: 100%;
+    align-items: top;
+    justify-content: left;
+}
+.beliefs p {
+    flex-grow: 1;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.pitch {
+    margin-bottom: 60px;
+}
+
+.pitch p {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.polaroid {
+    margin: 0 auto;
+    max-width: 576px; 
+    padding-top: 40px;
+}
+.polaroid img {
+    width: 100%;
+    max-width: 576px;
+}
+
+.cta_options h2 {
+    font-family: var(--display);
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
 
 .entrylist {
     border: 1px solid var(--dark);
@@ -163,6 +233,15 @@ h1 {
     .notescolumn {
         padding-left: 14px;
     }
+
+    .joinus.mobile {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
+    .joinus.desktop {display: none;}
 }
 @media screen and (max-width: 400px) {
     .entrylist {

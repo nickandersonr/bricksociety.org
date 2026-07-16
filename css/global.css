@@ -78,6 +78,13 @@ p, li {
     margin: 0 auto;
     padding: 0 20px;
 }
+.cta_options {
+    text-align: center;
+}
+.cta_options iframe {
+    max-width: 800px;
+}
+
 .joinus {
     display: block;
     max-width: 300px;
@@ -131,6 +138,9 @@ footer p {
     }
     .logo {
         max-width: 300px;
+    }
+    .cta_options {
+        margin: 0 26px;
     }
 
     /*
