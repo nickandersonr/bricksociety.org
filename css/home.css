@@ -65,7 +65,7 @@ h1 {
 .socials div a {
     display: block;
     align-items: center;
-    width: 132px;
+    max-width: 132px;
     height: 132px;
     mix-blend-mode: multiply;
     background-size: contain;
