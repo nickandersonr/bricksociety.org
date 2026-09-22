@@ -85,10 +85,10 @@ h1 {
     background-image: url("../img/HDUI/HDI_cal_Hover.jpg");
 }
 .socials a.linkedin {
-    background-image: url("../img/HDUI/HDI_linkedin.jpg");
+    background-image: url("../img/HDUI/HDI_linkedIn.jpg");
 }
 .socials a.linkedin:hover {
-    background-image: url("../img/HDUI/HDI_linkedin_Hover.jpg");
+    background-image: url("../img/HDUI/HDI_linkedIn_Hover.jpg");
 }
 .beliefs {
     display: flex;
