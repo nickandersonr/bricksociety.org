@@ -65,12 +65,31 @@ h1 {
 .socials div a {
     display: block;
     align-items: center;
-    height: 78px;
+    width: 132px;
+    height: 132px;
+    mix-blend-mode: multiply;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .2s ease;
 }
-.luma a img {
-    padding: 11px 0;
+.socials a.insta {
+    background-image: url("../img/HDUI/HDI_instagram.jpg");
 }
-
+.socials a.insta:hover {
+    background-image: url("../img/HDUI/HDI_instagram_Hover.jpg");
+}
+.socials a.cal {
+    background-image: url("../img/HDUI/HDI_cal.jpg");
+}
+.socials a.cal:hover {
+    background-image: url("../img/HDUI/HDI_cal_Hover.jpg");
+}
+.socials a.linkedin {
+    background-image: url("../img/HDUI/HDI_linkedin.jpg");
+}
+.socials a.linkedin:hover {
+    background-image: url("../img/HDUI/HDI_linkedin_Hover.jpg");
+}
 .beliefs {
     display: flex;
     width: 100%;
