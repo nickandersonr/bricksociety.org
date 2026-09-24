@@ -111,16 +111,25 @@ h1 {
     font-weight: 300;
     font-size: 22px;
 }
+
+
+.haveyouseen {
+    mix-blend-mode: multiply;
+    width: 50%;
+}
 .catalogWindow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 70px;
 }
 .catalogWindow a {
     display: block;
     align-items: center;
     width: 100%;
-    height: 240px;
+    height: 460px;
     /*mix-blend-mode: multiply;*/
-    background-image: url("../img/HDUI/CatalogWindow.png");
+    background-image: url("../img/CC/CCIcon.png");
     background-size: contain;
     background-repeat: no-repeat;
     animation: wiggle 6s linear infinite;
@@ -128,7 +137,7 @@ h1 {
     transition: all .2s ease;
 }
 .catalogWindow a:hover {
-    background-image: url("../img/HDUI/CatalogWindow_Hover.png");
+    background-image: url("../img/CC/CCIcon_Hover.png");
 }
 
 
@@ -310,6 +319,12 @@ h1 {
 @media screen and (max-width: 400px) {
     .entrylist {
         grid-template-columns: 4fr;
+    }
+    .haveyouseen {
+        width: 100%;
+    }
+    .catalogWindow a {
+        height: 300px;
     }
     .notescolumn {
         display: none;
